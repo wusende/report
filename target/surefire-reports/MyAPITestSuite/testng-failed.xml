@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MyAPITestSuite]">
+  <listeners>
+    <listener class-name="com.ihuoli.TestngListener"/>
+  </listeners>
+  <test name="APITestCase(failed)">
+    <classes>
+      <class name="com.ihuoli.SimpleTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="level1"/>
+        </methods>
+      </class> <!-- com.ihuoli.SimpleTest -->
+    </classes>
+  </test> <!-- APITestCase(failed) -->
+</suite> <!-- Failed suite [MyAPITestSuite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MyAPITestSuite">
+	<listeners>
+        <listener class-name="com.ihuoli.TestngListener"></listener>
+    </listeners>
+    
+	<test name="APITestCase">
+		<classes>
+			<class name="com.ihuoli.SimpleTest" />
+
+		</classes>
+	</test>
+</suite>
